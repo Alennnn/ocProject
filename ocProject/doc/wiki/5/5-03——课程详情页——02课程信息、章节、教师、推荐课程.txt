@@ -1,0 +1,29 @@
+
+#5-03——课程详情页——02课程信息、章节、教师、推荐课程#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）课程基本信息
+	2）教师信息
+	3）推荐课程
+	4）课程章节
+	
+二、设计（思路）；
+	项目：ocPortal、ocService
+	1）CourseController
+	2）ICourseBusiness（和CourseBusinessImpl）
+	3）WEB-INF/pages/learn.html
+	4）CourseCommentMapper.xml、CourseSectionMapper.xml（以及相关文件）
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果预览
+	
+五、产出（结果驱动）；
+	wiki：5-03——课程详情页——02课程信息、章节、教师、推荐课程.txt
+	源码：ocProject_V503_02
+	
+	

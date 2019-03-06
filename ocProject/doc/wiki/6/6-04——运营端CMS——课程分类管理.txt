@@ -1,0 +1,27 @@
+
+#6-04——运营端CMS——课程分类管理#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）课程分类加载
+	2）二级分类过滤
+	3）课程分类添加、修改、删除
+	
+二、设计（思路）；
+	项目：ocOperator
+	1）ClassifyController
+	2）cms/classify/classifyIndex.html
+	3）PortalBusiness
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果展示
+	
+五、产出（结果驱动）；
+	wiki：6-04——运营端CMS——课程分类管理.txt
+	源码：ocProject_V604
+	
+	

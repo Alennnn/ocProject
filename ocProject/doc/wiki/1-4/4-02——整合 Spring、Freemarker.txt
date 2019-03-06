@@ -1,0 +1,25 @@
+#4-02——整合 Spring、Freemarker#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）实现spring对bean进行管理；
+	2）使用freemarker引擎实现后台数据在页面的展示；
+	3）成功启动，访问正常
+	
+二、设计（思路）；
+	在ocPortal项目中实现
+	web.xml 加载 applicationContext.xml
+	web.xml 加载 app-servlet.xml
+	
+三、开发（实战）；
+	配置文件代码实战讲解；
+	
+四、发布（验证）；
+	预期：ocPortal项目正常启动
+	
+五、产出（结果驱动）；
+	wiki：4-02——整合 Spring、Freemarker.txt
+	源码：ocProject_V402
+	
+	

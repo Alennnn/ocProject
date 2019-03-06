@@ -1,0 +1,56 @@
+
+#7-06——M站——账号OAuth认证#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）OAuth认证流程（参考PPT）
+	2）预览、业务流程代码讲解
+	3）微信测试号中的 域名配置
+	
+二、设计（思路）；
+	项目：ocWechat
+	1）WxApiCtrl#oauthTest （/wxapi/oauthTest.html)
+	2）applicationContext.xml
+	3）WxOAuth2Interceptor
+	4）pages/test/oauthTest.html
+	
+	测试认证：在微信中访问网址：
+	http://ocwechat.applinzi.com/wxapi/oauthTest.html
+	（注：ocwechat.applinzi.com 换成自己应用的地址）
+	
+	网页授权获取用户基本信息 wiki
+	https://mp.weixin.qq.com/wiki/17/c0f37d5704f0b64713d5d2c37b468d75.html
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果预览
+	
+五、产出（结果驱动）；
+	wiki：7-06——M站——账号OAuth认证.txt
+	源码：ocProject_V706
+	
+	
+附菜单
+附菜单 （将域名：ocwechat.applinzi.com 换成自己的）
+{
+     "button": [
+                {
+                    "type": "view", 
+                    "name": "课程学习", 
+                    "url": "http://ocwechat.applinzi.com/index.html", 
+                    "sub_button": [ ]
+                },
+                {
+                    "type": "view", 
+                    "name": "个人中心", 
+                    "url": "http://ocwechat.applinzi.com/wxapi/oauthTest.html", 
+                    "sub_button": [ ]
+                }
+        ]
+}
+
+
+	

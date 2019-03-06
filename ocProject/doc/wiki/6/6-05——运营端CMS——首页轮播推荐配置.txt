@@ -1,0 +1,27 @@
+
+#6-05——运营端CMS——首页轮播推荐配置#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）轮播配置加载展示
+	2）七牛图片处理
+	3）轮播配置添加、修改
+	
+二、设计（思路）；
+	项目：ocOperator
+	1）SiteCarouselController.java
+	2）/cms/carousel/pagelist.html
+	3）/cms/carousel/merge.html
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果预览
+	
+五、产出（结果驱动）；
+	wiki：6-05——运营端CMS——首页轮播推荐配置.txt
+	源码：ocProject_V605
+	
+	

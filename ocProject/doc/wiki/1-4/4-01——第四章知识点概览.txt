@@ -1,0 +1,18 @@
+
+#4-01——第四章知识点概览#
+	
+	从本章开始，进入编码阶段；主要是做一些基础代码编写；
+	知识点主要包括：
+	
+	1）整合 Spring、Freemarker；
+	2）整合 Mybatis；
+	3）前端整合：bootstrap，jquery等；
+	4）整合七牛图片云存储：接口代码；
+	5）整合shiro，实现用户登录；
+	6）完成一个业务流程：注册；
+	7）专注于一个表的开发：CRUD，分页实现；
+	
+	源码下载地址：https://git.oschina.net/huhan/ocPortal
+	
+	
+	

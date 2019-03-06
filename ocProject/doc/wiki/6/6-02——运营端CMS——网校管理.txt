@@ -1,0 +1,28 @@
+
+#6-02——运营端CMS——网校管理#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）网校列表
+	2）网校添加、删除、修改
+	
+二、设计（思路）；
+	项目：ocOperator
+	1）CollegeController.java
+	2）pages/cms/college/collegePageList.html
+	
+	ocService
+	3）ConstsCollegeMapper.xml
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	展示效果
+	
+五、产出（结果驱动）；
+	wiki：6-02——运营端CMS——网校管理.txt
+	源码：ocProject_V602
+	
+	

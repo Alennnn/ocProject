@@ -1,0 +1,28 @@
+
+#6-03——运营端CMS——用户管理#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）用户分页
+	2）用户修改
+	
+二、设计（思路）；
+	项目：ocOperator
+	1）AuthUserController.java
+	2）cms/user/userPageList.html
+	
+	ocService
+	3）AuthUserMapper.xml
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	预览效果
+	
+五、产出（结果驱动）；
+	wiki：6-03——运营端——用户管理.txt
+	源码：ocProject_V603
+	
+	

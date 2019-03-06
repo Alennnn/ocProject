@@ -1,0 +1,80 @@
+
+#3-04——java代码规范&数据库设计规范#
+
+i）禁止以 _ 或者$ 开始或者结尾
+i）禁止使用半英文、半拼音
+i）类名：类名使用UpperCamelCase；
+i）方法名、参数名、成员变量、局部变量都统一使用 lowerCamelCase 风格，必须遵从驼峰形式。
+i）领域模型结尾： DO / DTO / VO  等
+
+i）枚举以Enum结尾；
+
+i）接口以I开头，抽象类命名使用 Abstract或Base 开头；异常类命名使用 Exception结尾；测试类命名以它要测试的类的名称开始，以 Test结尾
+
+i）Controller 类：必须以Controller结尾；
+     Service：接口以I开头 ，Service结尾；实现以ServiceImpl结尾；
+     Dao：接口，以Dao结尾
+
+i）包名一律小写
+
+i）减少缩写，如果有缩写请加注释；
+
+i） if、for 等格式规约，左 { 不换行；加空格等；
+
+i）所有覆盖方法加 @Override
+
+i）不使用过时的类或方法 （@Deprecatedi）
+
+i）类、类属性、类方法的注释，比如domain中属性注释，这样在生成 Javadoc 的时候，会将注释输出出来，方便阅读； 
+     /**注释**/
+
+i）类注释：说明类的用途；
+    方法注释：说明做了什么事情，实现了什么功能；入参类型，作用；返回值；异常；
+
+i）好的命名、代码结构是自解释的。注释力求精简准确、表达到位。
+
+i）Map的key、value注意点：
+     集合类                            Key                             Value                       说明 
+     Hashtable                      不允许为 null           不允许为 null         线程安全 
+     ConcurrentHashMap     不允许为 null           不允许为 null        线程局部安全 
+     TreeMap                        不允许为 null           允许为 null            线程不安全 
+     HashMap                        允许为 null               允许为 null            线程不安全 
+
+i）工具类加 Util结尾 或者 Helper结尾；
+
+i）设计模式类，请用设计模式名称结尾，比如 WindowSingleton
+
+
+数据库设计规范：
+
+i）避免中文拼音，比如 dengluming ，可以用 username
+i）主键id自增
+i）不设置外键
+i）所有字段非空、并且有默认值
+i）所有字段必须有注释，表必须有注释；
+i）字段小写，单词间用 _ ，比如 college_name ；对应java 的domain就是 collegeName
+i）表明以 t_开头，并且安装模块区分；比如 课程模块：以 t_course 开头；
+
+i）视图以 v_ 开头，函数以 fn_ 开头，等；
+
+i）sql语句中，sql关键字要大写，如 SELECT，UPDATE，FROM，WHERE，ORDER BY
+
+i）注意sql的美化，（通常sql 关键字前换行）
+     如：
+     SELECT id , username 
+     FROM t_auth_user
+     WHERE id = 1
+     AND del = 0
+     ORDER BY  time  DESC
+     LIMIT 0 , 10
+
+i）对应Mybatis 的 xml 的写法（详解 AuthUserMapper.xml 文件）
+	ii）类名，字段名小写
+	ii）sql关键字大写，并换行美化
+	
+i）参考 install.sql 建表语句
+
+
+
+
+

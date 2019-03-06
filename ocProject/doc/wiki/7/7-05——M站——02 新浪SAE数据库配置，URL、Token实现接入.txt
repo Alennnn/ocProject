@@ -1,0 +1,32 @@
+
+#7-05——M站——02 新浪SAE数据库配置，URL、Token实现接入#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）新浪SAE数据库配置
+	2）URL、Token认证接入演示
+	3）代码讲解
+	
+二、设计（思路）；
+	项目：ocWechat
+	上传war包之前的修改：（下载源码）
+		1）修改jdbc.properties : datasource.url
+		2）修改application.properties (微信公众号配置 appid、appsecret）
+			（注：改为自己测试号的配置）
+			
+		3）接入：
+				URL：http://ocwechat.applinzi.com/wxapi/message.html
+				Token：ocwechat-token
+				（注：ocwechat.applinzi.com 改为自己的地址）
+				
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	预览
+	
+五、产出（结果驱动）；
+	wiki：7-05——M站——02 新浪SAE数据库配置，URL、Token实现接入.txt
+	源码：ocProject_V705
+

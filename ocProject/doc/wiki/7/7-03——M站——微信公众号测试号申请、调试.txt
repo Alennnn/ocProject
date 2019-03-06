@@ -1,0 +1,49 @@
+
+#7-03——M站——微信公众号测试号申请、调试#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）测试号申请、以及公众号功能介绍
+	2）接口调试工具（创建菜单、获取用户基本信息）
+	
+	测试号申请：
+	https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+	
+	接口调试工具：
+	https://mp.weixin.qq.com/debug/
+	
+	开发文档wiki
+	https://mp.weixin.qq.com/wiki/11/0e4b294685f817b95cbed85ba5e82b8f.html
+	
+二、设计（思路）；
+		
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	预览
+	
+五、产出（结果驱动）；
+	wiki：7-03——M站——微信公众号测试号申请、调试.txt
+	源码：ocProject_V703
+
+
+附菜单 （将域名：ocwechat.applinzi.com 换成自己的）
+{
+     "button": [
+                {
+                    "type": "view", 
+                    "name": "课程学习", 
+                    "url": "http://ocwechat.applinzi.com/index.html", 
+                    "sub_button": [ ]
+                },
+                {
+                    "type": "view", 
+                    "name": "个人中心", 
+                    "url": "http://ocwechat.applinzi.com/wxapi/oauthTest.html", 
+                    "sub_button": [ ]
+                }
+        ]
+}
+

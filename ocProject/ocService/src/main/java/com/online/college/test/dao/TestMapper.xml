@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://10.20.91.130/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.online.college.test.dao.TestDao">
+
+	<select id="testQuery" resultType="java.util.Map">
+		SELECT CURRENT_DATE() as curdate 
+		FROM dual
+	</select>
+
+</mapper>
+
+
+

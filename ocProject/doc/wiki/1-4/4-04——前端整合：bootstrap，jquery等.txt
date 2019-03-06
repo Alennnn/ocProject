@@ -1,0 +1,23 @@
+
+#4-04——前端整合：bootstrap，jquery，css 等前端技术 #
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）整合前端样式，bootstrap，jquery 
+	2）PC站首页静态展示
+	
+二、设计（思路）；
+	在ocPortal项目中实现
+	
+三、开发（实战）；
+	代码讲解；
+	
+四、发布（验证）；
+	预期：前端页面中加载 bootstrap、jquery等资源
+	
+五、产出（结果驱动）；
+	wiki：4-04——前端整合：bootstrap，jquery等
+	源码：ocProject_V404
+	
+	

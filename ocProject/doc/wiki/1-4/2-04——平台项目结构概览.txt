@@ -1,0 +1,13 @@
+
+#2-04：平台项目结构概览#
+	
+	pom：ocProject
+	
+	war：ocOperator（运营）
+			 ocPortal （PC站）
+			 ocWechat（M站，微信公众号）
+			 
+	jar： ocService
+			ocCommon
+		
+		

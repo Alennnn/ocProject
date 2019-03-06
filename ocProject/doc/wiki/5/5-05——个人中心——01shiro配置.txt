@@ -1,0 +1,36 @@
+
+#5-05——个人中心——01shiro配置#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）完成shiro相关配置
+	2）拦截器
+	3）实现用户登录
+	
+二、设计（思路）；
+	项目：ocPortal
+	1）shiro.xml
+	2）applicationContext.xml
+	3）app-servlet.xml
+	4）spring.ftl
+	5）web.xml
+	
+	项目：ocService
+	6）AuthFilter
+	7）AuthRealm
+	
+	8）header.html
+	9）res.html
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	项目预览
+	
+五、产出（结果驱动）；
+	wiki：5-05——个人中心——01配置.txt
+	源码：ocProject_V505_01
+	
+	

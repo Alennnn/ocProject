@@ -1,0 +1,16 @@
+
+# 1-03——Maven构建Project # 
+
+一，maven继承与组合
+	详见PPT讲解
+	
+二，ocProject 构建依赖关系
+	详见PPT讲解
+	
+三，Eclipse创建ocProject
+	1）pom文件
+	2）jar包
+	3）war包
+	4）mvn pacage
+	
+	

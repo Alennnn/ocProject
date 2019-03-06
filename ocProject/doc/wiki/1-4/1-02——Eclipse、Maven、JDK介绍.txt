@@ -1,0 +1,29 @@
+
+#1-02——Eclipse、Maven、JDK介绍#
+
+一，所用软件下载地址：
+	链接：http://pan.baidu.com/s/1dEDfbB7 
+	密码：fmfd
+	
+二，软件版本：
+	Eclipse Indigo
+	JDK 1.7
+	Tomcat 7
+	Maven 3.0.5
+	MySql 5.5
+
+三，Eclipse 中集成 maven 插件
+	1）setting.xml
+	2）命令
+	
+四，windows 终端 mvn 命令
+	1）命令
+	2）环境变量
+	
+五，mvn命令
+	mvn clean 	清理 targe
+	mvn package	打包
+	mvn install    发布到本地仓库
+	mvn deploy  发布到远程仓库（如Nexus）
+	
+	

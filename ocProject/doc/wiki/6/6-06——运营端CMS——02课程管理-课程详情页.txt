@@ -1,0 +1,36 @@
+
+#6-06——运营端CMS——02课程管理-课程详情页#
+
+需求-设计-开发-发布（测试）-产出
+	
+一、需求（要实现的功能点）；
+	1）详情页面
+	2）课程基本信息修改
+	3）课程章节，课程章节修改、课程章节排序
+	4）课程评论、删除
+	
+二、设计（思路）；
+	项目：ocOperator
+	1）CourseController 
+	2）CourseSectionController
+	3）CourseCommentController
+	
+	4）cms/course/read.html （详情页）
+	5）cms/course/readSection.html（章节）
+	6）cms/course/readComment.html（评论）
+	7）cms/course/readReport.html （静态报表）
+	
+	ocService
+	8）CourseSectionMapper.xml
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果展示
+	
+五、产出（结果驱动）；
+	wiki：6-06——运营端CMS——02课程管理页-课程详情页.txt
+	源码：ocProject_V606_02
+	
+	

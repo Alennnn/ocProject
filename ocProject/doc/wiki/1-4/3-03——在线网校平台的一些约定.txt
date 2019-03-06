@@ -1,0 +1,9 @@
+
+#3-03——在线网校平台的一些约定#
+
+i）系统关键字，以 OC_业务模块_变量命名；比如memcache 的分类关键字 OC_COURSE_MEMCACHE_CLASSIFY 
+i）前端 js 中的关键字 ，以 _oc变量名开始：比如弹出层提示信息div 的id  _ocDialogModal 
+i）目录结构按照业务模块划分，比如 course 模块、college 模块；方便以后拆分；
+i）类、函数设计，遵从 设计模式中的 单一职责原则
+i）敢于重构
+

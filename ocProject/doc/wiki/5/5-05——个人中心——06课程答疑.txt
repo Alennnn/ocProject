@@ -1,0 +1,30 @@
+
+#5-05——个人中心——06课程答疑#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）当前用户（教师）的课程的 评论&问答加载
+	2）实现课程答疑
+	3）评论页面修改
+	
+二、设计（思路）；
+	项目：ocPortal
+	1）UserController # qa
+	2）user/qa.html
+	3）CourseCommentController # doComment
+	4）commentSegment.html
+	
+	项目：ocService
+	
+三、发布（验证）；
+	效果展示
+
+四、开发（实战）；
+	代码实战讲解
+	
+五、产出（结果驱动）；
+	wiki：5-05——个人中心——06课程答疑.txt
+	源码：ocProject_V505_06
+	
+	

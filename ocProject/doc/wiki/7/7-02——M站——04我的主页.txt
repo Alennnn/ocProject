@@ -1,0 +1,27 @@
+
+#7-02——M站（微信公众号）——04我的主页#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）登录
+	2）我的主页
+	
+二、设计（思路）；
+	项目：ocWechat
+	1）AuthController
+	2）UserController
+	3）WEB-INF/pages/login.html
+		  WEB-INF/pages/user.html
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	预览
+	
+五、产出（结果驱动）；
+	wiki：7-02——M站——04我的主页.txt
+	源码：ocProject_V702_04
+	
+	

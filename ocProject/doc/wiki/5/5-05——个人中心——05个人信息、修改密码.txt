@@ -1,0 +1,30 @@
+
+#5-05——个人中心——05个人信息、修改密码#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）个人信息修改
+	2）上传头像（七牛）
+	3）修改密码
+	
+二、设计（思路）；
+	项目：ocPortal
+	1）UserController # info （saveInfo）
+	2）UserController # passwd （savePasswd）
+	3）user/info.html
+	4）user/passwd.htm;
+	
+	ocService
+	
+三、发布（验证）；
+	发布预览
+	
+四、开发（实战）；
+	代码实战讲解
+	
+五、产出（结果驱动）；
+	wiki：5-05——个人中心——05个人信息、修改密码.txt
+	源码：ocProject_V505_05
+	
+	

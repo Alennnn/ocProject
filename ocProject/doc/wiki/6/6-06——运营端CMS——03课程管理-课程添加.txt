@@ -1,0 +1,29 @@
+
+#6-06——运营端CMS——03课程管理-课程添加#
+
+需求-设计-开发-发布（测试）-产出
+	
+一、需求（要实现的功能点）；
+	1）课程基本信息添加
+	2）课程章节添加
+	3）课程章节导入excel
+		
+二、设计（思路）；
+	项目：ocOperator
+	1）CourseController
+	2）CourseSectionController
+	3）cms/course/add.html 
+	4）cms/course/append.html （针对于课程修改）
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果展示
+	
+五、产出（结果驱动）；
+	wiki：6-06——运营端CMS——03课程管理页-课程添加.txt
+	源码：ocProject_V606_03
+	导入课程章节模板.xlsx
+	
+	

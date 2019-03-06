@@ -1,0 +1,27 @@
+
+# 5-01——网站首页——01页面结构介绍 #
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）了解PC站首页的静态页面
+	2）了解首页 页面结构
+	
+二、设计（思路）；
+	项目：ocPortal
+	涉及到文件：
+		静态页面：/static/index.html
+		动态页面：/WEB-INF/pages/index.html
+					 	 /WEB-INF/pages/common/res.html （资源文件）
+					 	 /WEB-INF/pages/common/header.html （页头）
+					 	 /WEB-INF/pages/common/footer.html （页脚）
+						
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+
+五、产出（结果驱动）；
+	wiki：5-01——网站首页——01页面结构介绍.txt
+	源码：ocProject_V501_01
+

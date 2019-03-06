@@ -1,0 +1,31 @@
+
+#5-04——课程学习页——02课程章节、评论、问答#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	1）课程章节、评论展示（类似于详情页）
+	2）课程学习记录
+	3）评论、验证码
+	4）视频播放
+	
+二、设计（思路）；
+	项目：ocPortal
+	1）CourseController#video
+	2）CourseCommentController#doComment
+	3）WEB-INF/pages/video.html
+	
+	4）ocService中部分代码
+	5）IdentifyCodeController
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果展示
+	
+五、产出（结果驱动）；
+	wiki：5-04——课程学习页——02课程章节、评论、问答.txt
+	源码：ocProject_V504_02
+	
+	

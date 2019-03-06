@@ -1,0 +1,29 @@
+
+#5-01——网站首页——02轮播区课程#
+
+需求-设计-开发-发布（测试）-产出
+
+一、需求（要实现的功能点）；
+	PC站首页轮播区功能实现；
+	1）动态轮播js
+	2）数据库中加载数据；
+	
+二、设计（思路）；
+	1）ocPortal 业务逻辑代码
+			PortalController.java
+			
+	2）ocService中基础代码
+	3）WEB-INF/pages/index.html (freemarker)
+	4）doc/install.sql
+	
+三、开发（实战）；
+	代码实战讲解
+	
+四、发布（验证）；
+	效果展示
+		
+五、产出（结果驱动）；
+	wiki：5-01——网站首页——02轮播区课程.txt
+	源码：ocProject_V501_02
+	
+	
